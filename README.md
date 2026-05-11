@@ -2,7 +2,7 @@
 
 Personal portfolio site powered by [Supabase](https://supabase.com) as a headless CMS.
 
-**Live:** [link TBD]
+**Live:** [alison-charles-portfolio.vercel.app](https://alison-charles-portfolio.vercel.app)
 
 ## Supabase Features Used
 
