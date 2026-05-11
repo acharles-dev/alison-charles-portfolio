@@ -1,14 +1,13 @@
 # alison-charles-portfolio
 
-Personal portfolio site powered by [Supabase](https://supabase.com) as a headless CMS.
+Personal portfolio site powered by [Supabase](https://supabase.com) as a database backend.
 
 **Live:** [alison-charles-portfolio.vercel.app](https://alison-charles-portfolio.vercel.app)
 
 ## Supabase Features Used
 
-- **Database (Postgres)** for all content: profile, experience, case studies, writing samples
-- **Auth** for admin panel (update content without redeploying)
-- **Row Level Security** public read, authenticated write
+- **Database (Postgres)** for work experience, case studies, and writing samples
+- **Row Level Security** — public read via anon key, writes restricted to authenticated/service_role
 
 ## Setup
 
@@ -23,7 +22,3 @@ Personal portfolio site powered by [Supabase](https://supabase.com) as a headles
 - Vanilla HTML/CSS/JS (no build step)
 - Supabase JS client via CDN
 - Deployed on Vercel
-
-## Why Supabase
-
-Postgres is more than a portfolio needs. That's the point. The same setup that serves a personal site scales to powering a full content platform. Supabase makes the overkill painless.
